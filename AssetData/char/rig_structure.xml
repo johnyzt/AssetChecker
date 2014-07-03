@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+
+<data>
+	<main_node>
+		<Controllers>
+			<Offset></Offset>
+		</Controllers>
+		<Geometry>
+			<HiRes></HiRes>
+			<LoRes></LoRes>
+			<Eyes_Geo_Grp></Eyes_Geo_Grp>
+		</Geometry>
+		<Texture>
+		</Texture>
+		<Hair></Hair>
+		<Rigging>
+			<Deformers></Deformers>
+			<Skeleton></Skeleton>
+		</Rigging>
+		<Lighting></Lighting>
+		<FX></FX>
+		<info></info>
+	</main_node>
+	<transformsToLock>
+		<substrings_for_obj>*_Ctrl</substrings_for_obj>
+		<substrings_for_parent>Ctrl_Grp</substrings_for_parent>
+		<skip_objs>Transform_Ctrl,COG_Ctrl</skip_objs>
+	</transformsToLock>
+	<display_layers>
+		<layer name="Smooth"></layer>
+		<layer name="NoSmooth"></layer>
+	</display_layers>
+	<run_external_script>
+		<script filename="checkLightRig.py"></script>
+	</run_external_script>
+</data>

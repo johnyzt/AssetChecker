@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<data>
+  <layer name="Geometry_Layer" in="both">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>2</attribute>
+    <attribute name='color'>0</attribute>
+  </layer>
+
+  <layer name="Controls_Layer" in="both">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>0</attribute>
+    <attribute name='color'>0</attribute>
+  </layer>
+
+  <control name='Transform_Ctrl' in="both">
+    <attribute name='GeoRes'>1</attribute>
+    <attribute name='GeoVis'>1</attribute>
+    <attribute name='GeoSmooth'>0</attribute>
+  </control>
+
+  <node name='Rigging' in="both">
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='Deformers' in="both">
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='vrayDisplacement' in="both">
+    <attribute name='vrayEdgeLength'>0.001</attribute>
+  </node>
+
+</data>

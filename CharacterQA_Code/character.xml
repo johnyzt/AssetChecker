@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+
+<data>
+  <layer name="Geometry_Layer">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>2</attribute>
+    <attribute name='color'>0</attribute>
+  </layer>
+
+  <layer name="Controls_Layer">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>0</attribute>
+    <attribute name='color'>0</attribute>
+  </layer>
+
+  <layer name="EyeSpec_Layer" essential='False'>
+    <attribute name='visibility'>0</attribute>
+    <attribute name='displayType'>2</attribute>
+    <attribute name='color'>0</attribute>
+  </layer>
+
+  <control name='Transform_Ctrl' essential='True'>
+    <attribute name='GeoRes' type='enum' nonKeyable='True'>1</attribute>
+    <attribute name='GeoVis' type='enum'>1</attribute>
+    <attribute name='GeoSmooth' type='enum'>0</attribute>
+  </control>
+
+  <control name='Base_Ctrl'></control>
+
+  <control name='Ground_Ctrl'></control>
+
+  <control name='Jump_Ctrl'></control>
+
+  <control name='Waist_Ctrl'></control>
+
+  <control name='Head_Ctrl'></control>
+
+  <control name='Head_Mid_Ctrl'></control>
+
+  <control name='Eye_LookAt_Ctrl' essential='False'></control>
+
+  <control name='ControlVis_Ctrl' overrideColor='13'>
+    <attribute name='bodyVis' type='bool' nonKeyable='True'>1</attribute>
+    <attribute name='bodyVis' type='bool' nonKeyable='True'>1</attribute>
+    <attribute name='eyesVis' type='bool' nonKeyable='True'>1</attribute>
+    <attribute name='teethVis' type='bool' nonKeyable='True'>1</attribute>
+    <attribute name='mouthVis' type='bool' nonKeyable='True'>1</attribute>
+    <attribute name='faceDeformers' type='bool' nonKeyable='True'>0</attribute>
+    <attribute name='teethDeformers' type='bool' nonKeyable='True'>0</attribute>
+    <attribute name='shirtDeformers' type='bool' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='hatDeformers' type='bool' essential='False' nonKeyable='True'>0</attribute>
+  </control>
+
+  <control name='Brow_Blend_Ctrl'>
+    <attribute name='BrowInOutL' type='float'>0</attribute>
+    <attribute name='BrowInOutR' type='float'>0</attribute>
+    <attribute name='BrowUpDownL' type='float'>0</attribute>
+    <attribute name='BrowUpDownR' type='float'>0</attribute>
+    <attribute name='Brow_Squeeze_L' type='float'>0</attribute>
+    <attribute name='Brow_Squeeze_R' type='float'>0</attribute>
+    <attribute name='Brow_Sad_L' type='float'>0</attribute>
+    <attribute name='Brow_Sad_R' type='float'>0</attribute>
+    <attribute name='Brow_Worried_L' type='float'>0</attribute>
+    <attribute name='Brow_Worried_R' type='float'>0</attribute>
+    <attribute name='Brow_Angry_L' type='float'>0</attribute>
+    <attribute name='Brow_Angry_R' type='float'>0</attribute>
+    <attribute name='Brow_Surprised_L' type='float'>0</attribute>
+    <attribute name='Brow_Surprised_R' type='float'>0</attribute>
+  </control>
+
+  <control name='L_Hand_Ctrl'>
+    <attribute name='followRotate' type='bool'>1</attribute>
+    <attribute name='horizontal' type='float'>0</attribute>
+    <attribute name='vertical' type='float'>0</attribute>
+  </control>
+
+  <control name='R_Hand_Ctrl'>
+    <attribute name='followRotate' type='bool'>1</attribute>
+    <attribute name='horizontal' type='float'>0</attribute>
+    <attribute name='vertical' type='float'>0</attribute>
+  </control>
+
+  <control name='R_Eye_Transform' essential='False'>
+    <attribute name='irisScale' type='float' >1</attribute>
+    <attribute name='irisWidth' type='float' >1</attribute>
+    <attribute name='irisHeight' type='float' >1</attribute>
+    <attribute name='pupilScale' type='float' >1</attribute>
+    <attribute name='pupilWidth' type='float' >1</attribute>
+    <attribute name='pupilHeight' type='float' >1</attribute>
+    <attribute name='scaleProjector' type='float' >0</attribute>
+    <attribute name='upperEyeLidBlink' type='float' >0</attribute>
+    <attribute name='lowerEyeLidBlink' type='float' >0</attribute>
+    <attribute name='upperLidTracking' type='float' >0.5</attribute>
+    <attribute name='lowerLidTracking' type='float' >0.25</attribute>
+    <attribute name='softLid' type='float' >1</attribute>
+    <attribute name='blinkCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeLidCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeLidCornerCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeDeformerCtrlVis' type='boolean' >0</attribute>
+    <attribute name='guideVis' type='boolean' >0</attribute>
+    <attribute name='proxyIrisPupilVis' type='boolean' >1</attribute>
+    <attribute name='RightEyeRed' type='float' >0</attribute>
+  </control>
+
+  <control name='L_Eye_Transform' essential='False'>
+    <attribute name='irisScale' type='float' >1</attribute>
+    <attribute name='irisWidth' type='float' >1</attribute>
+    <attribute name='irisHeight' type='float' >1</attribute>
+    <attribute name='pupilScale' type='float' >1</attribute>
+    <attribute name='pupilWidth' type='float' >1</attribute>
+    <attribute name='pupilHeight' type='float' >1</attribute>
+    <attribute name='scaleProjector' type='float' >0</attribute>
+    <attribute name='upperEyeLidBlink' type='float' >0</attribute>
+    <attribute name='lowerEyeLidBlink' type='float' >0</attribute>
+    <attribute name='upperLidTracking' type='float' >0.5</attribute>
+    <attribute name='lowerLidTracking' type='float' >0.25</attribute>
+    <attribute name='softLid' type='float' >1</attribute>
+    <attribute name='blinkCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeLidCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeLidCornerCtrlVis' type='boolean' >0</attribute>
+    <attribute name='eyeDeformerCtrlVis' type='boolean' >0</attribute>
+    <attribute name='guideVis' type='boolean' >0</attribute>
+    <attribute name='proxyIrisPupilVis' type='boolean' >1</attribute>
+    <attribute name='LeftEyeRed' type='float' >0</attribute>
+  </control>
+
+  <control name='Mouth_Blend_Ctrl' essential='False'>
+    <attribute name='Phoneme_Ee_L' type='float'>0</attribute>
+    <attribute name='Phoneme_Ee_R' type='float'>0</attribute>
+    <attribute name='Phoneme_FV' type='float'>0</attribute>
+    <attribute name='Phoneme_BMP' type='float'>0</attribute>
+    <attribute name='Phoneme_Oo' type='float'>0</attribute>
+    <attribute name='Phoneme_Oh' type='float'>0</attribute>
+    <attribute name='Smile_L' type='float'>0</attribute>
+    <attribute name='Smile_R' type='float'>0</attribute>
+    <attribute name='Smile_Toothy' type='float'>0</attribute>
+    <attribute name='Frown_L' type='float'>0</attribute>
+    <attribute name='Frown_R' type='float'>0</attribute>
+    <attribute name='Sneer_L' type='float'>0</attribute>
+    <attribute name='Sneer_R' type='float'>0</attribute>
+    <attribute name='MouthCornerL' type='float'>0</attribute>
+    <attribute name='MouthCornerR' type='float'>0</attribute>
+    <attribute name='Mouth_Pull' type='float'>0</attribute>
+    <attribute name='Cheek_Puff_L' type='float'>0</attribute>
+    <attribute name='Cheek_Puff_R' type='float'>0</attribute>
+  </control>
+
+  <control name='Eye_LookAt_Ctrl' essential='False'>
+    <attribute name='follow' type='enum'>0</attribute>
+  </control>
+
+  <control name='R_Eye_Spec_Ctrl' essential='False'>
+    <attribute name='specVis' type='enum'>1</attribute>
+    <attribute name='followEye' type='enum'>1</attribute>
+  </control>
+
+
+  <control name='TOP_Teeth_Main_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='TOP_Teeth_01_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='TOP_Teeth_02_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='TOP_Teeth_03_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='TOP_Teeth_04_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='TOP_Teeth_05_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_Main_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_01_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_02_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_03_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_04_Ctrl' essential='True' overrideColor='23'></control>
+
+  <control name='BOT_Teeth_05_Ctrl' essential='True' overrideColor='23'></control>
+
+
+  <control name='Tongue_01_Ctrl' essential='True' overrideColor='6'></control>
+
+  <control name='Tongue_02_Ctrl' essential='True' overrideColor='6'></control>
+
+  <control name='Tongue_03_Ctrl' essential='True' overrideColor='6'></control>
+
+  <control name='Tongue_04_Ctrl' essential='True' overrideColor='6'></control>
+
+  <control name='Tongue_05_Ctrl' essential='True' overrideColor='6'></control>
+
+
+  <control name='CTR_Brow_Ctrl' essential='True' overrideColor='18'></control>
+
+  <control name='Mouth_Blend_Ctrl' essential='True' overrideColor='13'></control>
+
+  <control name='Brow_Blend_Ctrl' essential='True' overrideColor='13'></control>
+
+  <control name='R_Eye_Transform' essential='True' overrideColor='17'></control>
+
+  <control name='L_Eye_Transform' essential='True' overrideColor='17'></control>
+
+
+  <node name='Rigging' in="both">
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='Deformers' in="both">
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='vrayDisplacement' in="both">
+    <attribute name='vrayEdgeLength'>0.001</attribute>
+  </node>
+
+  <node name='Eye_Transform_CtrlShape' in="char">
+    <attribute name='visibility' essential='False'>0</attribute>
+  </node>
+
+</data>

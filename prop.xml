@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+
+<data>
+  <layer name="Smooth">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>0</attribute>
+    <attribute name='color'>14</attribute>
+  </layer>
+
+  <layer name="NoSmooth">
+    <attribute name='visibility'>1</attribute>
+    <attribute name='displayType'>0</attribute>
+    <attribute name='color'>13</attribute>
+  </layer>
+
+  <control name='Transform_Ctrl'>
+    <attribute name='GeoRes' nonKeyable='True'>2</attribute>
+    <attribute name='GeoVis'>1</attribute>
+    <attribute name='GeoSmooth' nonKeyable='True'>0</attribute>
+  </control>
+
+  <node name='Rigging'>
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='Deformers'>
+    <attribute name='visibility'>0</attribute>
+  </node>
+
+  <node name='vrayDisplacement'>
+    <attribute name='vrayEdgeLength'>0.001</attribute>
+  </node>
+
+  <control name='COG_Ctrl'>
+    <attribute name='PivotCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='SquashCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='BendCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='FinCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='LeafVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='BrushBendCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+    <attribute name='LgtCtrlVis' essential='False' nonKeyable='True'>0</attribute>
+  </control>
+
+</data>
